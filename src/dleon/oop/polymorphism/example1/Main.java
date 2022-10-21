@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Configuration configuration = new Configuration("configuration 2222");
-        Employee employee = new Employee("new Emploee Denis");
+        Employee employee = new Employee("new Employee Denis");
 
         List<Remove> removeList = new ArrayList<>();
         removeList.add(configuration);
